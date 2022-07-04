@@ -1,0 +1,72 @@
+body{
+    background: ghostwhite;
+}
+.card-2{
+     padding: 30px 0;
+}
+.card{
+    box-shadow: 0 0 30px rgba(250, 1, 1, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    transition: 0.5s;
+    height: auto;
+    width: 70%;
+    
+}
+.card:hover{
+    transition: .7s;
+    background-color: black;
+    color: azure;
+    transform: scale(1.1);
+}
+.img1 img{
+    height: 200px;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    
+
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid blanchedalmond;
+    margin-top: -80px;
+
+}
+.main-text{
+    padding: 20px 0;
+    text-align: center;
+
+}
+.main-text h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 35px;
+
+}
+.main-text p{
+    padding: 10px 5px;
+    font-size: 15px;
+}
+.text{
+    color: aquamarine;
+    text-align: center;
+}
+.text h1{
+    text-transform: uppercase;
+    color: yellowgreen;
+    text-shadow: 0 0 30px rgba(250, 1, 1, 0.5);
+    font-weight: 900;
+    font-size: 80px;
+    transition: 0.5s;
+}
+.text h1:hover{
+    transform: scale(1.1);
+}
